@@ -7,12 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1te1YE8TZzXRF_F-UR6Fmlpgk70q6XS3h
 """
 
-pip install pandas streamlit matplotlib seaborn
-
-import pandas as pd
-import streamlit as st
-import matplotlib.pyplot as plt
-import seaborn as sns
 
 # Load the dataset (replace with your dataset path)
 uploaded_file = st.file_uploader("/content/Hotel Bookings - Dummy - 2.csv", type=["csv"])
